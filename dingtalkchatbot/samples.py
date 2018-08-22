@@ -11,9 +11,9 @@ logging.basicConfig(level=logging.INFO)
 
 if __name__ == '__main__':
     # WebHook地址
-    webhook = 'https://oapi.dingtalk.com/robot/send?access_token=这里填写自己钉钉群自定义机器人的token'
+    webhook = 'https://oapi.dingtalk.com/robot/send?access_token=59117d422a069d71c0297efd3263985398a8bb0e1dd971031f1628a46d327058'
     # 用户手机号列表
-    at_mobiles = ['这里填写需要提醒的用户的手机号码，字符串或数字都可以']
+    at_mobiles = ['15982317461']
     # 初始化机器人小丁
     xiaoding = DingtalkChatbot(webhook)
     # text
